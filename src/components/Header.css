@@ -1,0 +1,52 @@
+header {
+  background-color: #002f34;
+  color: rgb(208, 108, 108);
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.add-listing-button {
+  background-color: rgb(213, 210, 210);
+  color: #002f34;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #002f34;
+  margin-left: auto; /* Это сдвинет кнопку вправо */
+}
+
+.add-listing-button:hover {
+  background-color: #808080;
+}
